@@ -1,0 +1,26 @@
+{
+  "name": "scholarsprint",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@tensorflow-models/blazeface": "^0.1.0",
+    "@tensorflow/tfjs": "^4.21.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.4",
+    "@types/react": "^18.3.5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.10",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}

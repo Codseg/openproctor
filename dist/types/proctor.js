@@ -1,0 +1,2 @@
+// types/proctor.ts
+export {};
