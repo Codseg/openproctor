@@ -2,7 +2,7 @@ Here’s a **README.md** file for your project, covering all the steps and guide
 
 ---
 
-# Proctoring SDK with Face Detection and Media Stream Uploading
+# OpenProctor is an open-source Proctoring SDK with Face Detection and Media Stream Uploading
 
 This repository contains a **Proctoring SDK** that allows:
 - Capturing **camera**, **microphone**, and **screen share** streams.

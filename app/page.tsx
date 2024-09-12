@@ -73,6 +73,7 @@ const HomePage = () => {
             },
             onScreenStream: (screenStream: MediaStream) => {
                 // Handle screen sharing stream if needed
+                console.log('Screen Stream', screenStream);
             },
             onTabSwitch: () => {
                 console.log('Tab switch detected!');

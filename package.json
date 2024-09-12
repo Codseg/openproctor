@@ -1,7 +1,10 @@
 {
   "name": "openproctor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
+  "description": "A open source proctoring SDK with face detection and media stream uploading",
+  "author": "Ashwin Thinnappan",
+  "license": "MIT",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@tensorflow-models/blazeface": "^0.1.0",
@@ -9,6 +12,10 @@
     "next": "^14.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codseg/openproctor.git"
   },
   "devDependencies": {
     "@types/node": "22.5.4",
@@ -22,5 +29,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  }
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ]
 }
